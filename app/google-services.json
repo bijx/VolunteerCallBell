@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "243317674603",
+    "firebase_url": "https://volunteer-call-bell.firebaseio.com",
+    "project_id": "volunteer-call-bell",
+    "storage_bucket": "volunteer-call-bell.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243317674603:android:b76f922921bf250f",
+        "android_client_info": {
+          "package_name": "com.hyperspc.volunteercallbell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243317674603-strji4kben4o2cj6qrp5b0qp7c4tl0co.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyperspc.volunteercallbell",
+            "certificate_hash": "e79c012651040b744f0bc37a76ad2ac28db8bf90"
+          }
+        },
+        {
+          "client_id": "243317674603-jel6gvtn4fchqeq29dvovc10d4ra36ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfU3PcyRb4qJwg8kva30NvB-qD09jXqPs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243317674603-jel6gvtn4fchqeq29dvovc10d4ra36ja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
