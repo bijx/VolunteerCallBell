@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
@@ -23,6 +24,7 @@
             android:layout_height="35dp"
             android:text="Enter Room Number"
             android:textAlignment="center"
+            android:textColor="@color/TextLogo"
             android:textSize="25sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="62dp"
@@ -34,12 +36,14 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number"
-            android:text="201" />
+            android:text="201"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/call"
             android:layout_width="match_parent"
             android:layout_height="138dp"
+            android:background="@color/Button"
             android:text="Call"
             android:textSize="30sp"
             android:typeface="monospace"

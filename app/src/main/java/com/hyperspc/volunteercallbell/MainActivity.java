@@ -1,5 +1,6 @@
 package com.hyperspc.volunteercallbell;
 
+import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+
         status = (TextView) findViewById(R.id.statusText);
         callButton = (Button) findViewById(R.id.call);
         callButton.setBackgroundColor(Color.GRAY);
@@ -60,13 +62,15 @@ public class MainActivity extends AppCompatActivity {
         allRef = FirebaseDatabase.getInstance().getReference("allCalls");
         room = (EditText) findViewById(R.id.roomNumber);
         callSent = false;
+        callButton.setBackgroundColor(Color.parseColor("#F26430"));
 
         callButton.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceAsColor")
             @Override
             public void onClick(View view) {
                 if(callSent){
                     callSent = false;
-                    callButton.setBackgroundColor(Color.GRAY);
+                    callButton.setBackgroundColor(Color.parseColor("#F26430"));
                     callButton.setText("Call");
                     updateFirebase(callSent);
                     Toast.makeText(getApplicationContext(), "Call Terminated", Toast.LENGTH_SHORT).show();
